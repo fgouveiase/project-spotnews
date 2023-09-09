@@ -1,21 +1,17 @@
-{% extends "base.html" %}
-{% load static %}
-
-{% block title%}
+{% extends "base.html" %} {% load static %} {% block head %}
+<link rel="stylesheet" href="{% static 'css/style.css' %}" />
+{% endblock %} {% block title %}
 <title>Página Inicial</title>
-{% endblock %}
-{% block css %}
-<link rel="stylesheet" href="{% static 'css/style.css' %}">
 {% endblock %}
 
 {% block content %}
+{% for new in news %}
 <div class="news">
-    {% for new in news %}
-    <div class="news">
-        <h2 class="news-title">{{ news.title }}</h2>
-        <span class="news-date">{{ new.created_at|date:"d/m/Y" }}</span>
-        <img src="{% static new.image.url %}" alt="{{ news.title }}" class="news-image" />
-    </div>
-    {% endfor %}
+    <h2 class="news-title">{{ new.title }}</h2>
+    <span class="news-date">{{ new.created_at|date:"d/m/Y" }}</span>
+    {% if new.image %}
+    <img src="{% static new.image.url %}" alt="{{ new.title }}" class="news-image" />
+    {% endif %}
 </div>
+{% endfor %}
 {% endblock %}

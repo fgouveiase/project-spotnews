@@ -30,7 +30,7 @@ router.register(r"users", UsersViewSet)
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("", include("news.urls")),
-    path("api/", include(router.urls))
+    path("api/", include(router.urls)),
 ]
 
 if settings.DEBUG:

@@ -1,41 +1,41 @@
 authors = [
-        {
-            "name": "Maria Oliveira",
-            "email": "maria.oliveira@gmail.com",
-            "password": "M@r!@_0l!v3!r@",
-            "role": 'admin'
-        },
-        {
-            "name": "João da Silva",
-            "email": "joao.silva@gmail.com",
-            "password": "J0a0!@#S1lv@",
-            "role": 'user'
-        },
-        {
-            "name": "Ana Pereira",
-            "email": "ana.pereira@gmail.com",
-            "password": "@n@_P3r31r@",
-            "role": 'user'
-        },
-        {
-            "name": "Pedro Santos",
-            "email": "pedro.santos@gmail.com",
-            "password": "P3dr0#S@nt0s",
-            "role": 'admin'
-        },
-        {
-            "name": "Carla Souza",
-            "email": "carla.souza@gmail.com",
-            "password": "C@rl@_S0uz@#",
-            "role": 'user'
-        },
-        {
-            "name": "Rafael Costa",
-            "email": "rafael.costa@gmail.com",
-            "password": "R@f@3l#C0$t@",
-            "role": 'user'
-        }
-    ]
+    {
+        "name": "Maria Oliveira",
+        "email": "maria.oliveira@gmail.com",
+        "password": "M@r!@_0l!v3!r@",
+        "role": "admin",
+    },
+    {
+        "name": "João da Silva",
+        "email": "joao.silva@gmail.com",
+        "password": "J0a0!@#S1lv@",
+        "role": "user",
+    },
+    {
+        "name": "Ana Pereira",
+        "email": "ana.pereira@gmail.com",
+        "password": "@n@_P3r31r@",
+        "role": "user",
+    },
+    {
+        "name": "Pedro Santos",
+        "email": "pedro.santos@gmail.com",
+        "password": "P3dr0#S@nt0s",
+        "role": "admin",
+    },
+    {
+        "name": "Carla Souza",
+        "email": "carla.souza@gmail.com",
+        "password": "C@rl@_S0uz@#",
+        "role": "user",
+    },
+    {
+        "name": "Rafael Costa",
+        "email": "rafael.costa@gmail.com",
+        "password": "R@f@3l#C0$t@",
+        "role": "user",
+    },
+]
 
 categories = [
     {"name": "Política"},
@@ -47,7 +47,7 @@ categories = [
     {"name": "Ciência"},
     {"name": "Cultura"},
     {"name": "Meio Ambiente"},
-    {"name": "Educação"}
+    {"name": "Educação"},
 ]
 
 news = [
@@ -57,7 +57,7 @@ news = [
         "author": "Rafael Costa",
         "created_at": "2023-07-10",
         "image": "festival-cultural.jpg",
-        "category": "Cultura"
+        "category": "Cultura",
     },
     {
         "title": "Descoberta Científica Promissora",
@@ -65,7 +65,7 @@ news = [
         "author": "Carla Souza",
         "created_at": "2023-07-13",
         "image": "descoberta-cientifica.jpg",
-        "category": "Ciência"
+        "category": "Ciência",
     },
     {
         "title": "Novo Filme de Ação é Sucesso de Bilheteria",
@@ -73,7 +73,7 @@ news = [
         "author": "Pedro Santos",
         "created_at": "2023-07-17",
         "image": "filme-acao.jpg",
-        "category": "Entretenimento"
+        "category": "Entretenimento",
     },
     {
         "title": "Economia em Crescimento",
@@ -81,7 +81,7 @@ news = [
         "author": "Ana Pereira",
         "created_at": "2023-07-22",
         "image": "economia-crescimento.jpg",
-        "category": "Economia"
+        "category": "Economia",
     },
     {
         "title": "Novas Diretrizes Educacionais",
@@ -89,7 +89,7 @@ news = [
         "author": "Pedro Santos",
         "created_at": "2023-07-29",
         "image": "diretrizes-educacionais.jpg",
-        "category": "Educação"
+        "category": "Educação",
     },
     {
         "title": "Avanço Tecnológico na Indústria",
@@ -97,7 +97,7 @@ news = [
         "author": "João da Silva",
         "created_at": "2023-08-01",
         "image": "avanco-tecnologico.jpg",
-        "category": "Tecnologia"
+        "category": "Tecnologia",
     },
     {
         "title": "Incêndio Florestal no Parque Nacional",
@@ -105,7 +105,7 @@ news = [
         "author": "Maria Oliveira",
         "created_at": "2023-08-02",
         "image": "incendio-florestal.jpg",
-        "category": "Meio Ambiente"
+        "category": "Meio Ambiente",
     },
     {
         "title": "Preservação Ambiental na Amazônia",
@@ -113,6 +113,6 @@ news = [
         "author": "Ana Pereira",
         "created_at": "2023-08-05",
         "image": "preservacao-ambiental.jpg",
-        "category": "Meio Ambiente"
+        "category": "Meio Ambiente",
     },
 ]
